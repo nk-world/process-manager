@@ -2,7 +2,7 @@
 
 **Just download the file.**
 
-git clone https://www.github.com/nk-world/process-manager
+git clone https://www.github.com/nk-world/process-manager.git
 
 cd process-manager
 
