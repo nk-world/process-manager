@@ -3,6 +3,7 @@ title Process Manager
 color 1f
 if /I "%*" NEQ "by-app" exit
 echo Process Manager (Console) Version 2.0.1
+echo Codename Snow Leopard
 echo.
 :choice
 echo What to do?
@@ -47,7 +48,7 @@ goto :choice
 :7
 cls
 echo Process Manager (Console)
-echo Version 2.0.1
+echo Version 2.0.1 (Snow Leopard)
 echo.
 echo Thanks very much..
 pause
