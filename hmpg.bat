@@ -7,7 +7,14 @@ cls
 title Process Manager
 color 1f
 if /I "%*" NEQ "by-app" exit
-echo Process Manager (Console) Version 2.5
+echo  ____                                __  __
+echo ^|  _ \ _ __ ___   ___ ___  ___ ___  ^|  \/  ^| __ _ _ __   __ _  __ _  ___ _ __
+echo ^| ^|_) ^| '__/ _ \ / __/ _ \/ __/ __^| ^| ^|\/^| ^|/ _` ^| '_ \ / _` ^|/ _` ^|/ _ \ '__^|
+echo ^|  __/^| ^| ^| (_) ^| (_^|  __/\__ \__ \ ^| ^|  ^| ^| (_^| ^| ^| ^| ^| (_^| ^| (_^| ^|  __/ ^|
+echo ^|_^|   ^|_^|  \___/ \___\___^|^|___/___/ ^|_^|  ^|_^|\__,_^|_^| ^|_^|\__,_^|\__, ^|\___^|_^|
+echo                                                               ^|___/
+echo.
+echo (Console) Version 2.5
 echo Codename Lion
 echo.
 :choice
