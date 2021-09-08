@@ -18,3 +18,5 @@ Launch.exe
 - Added options to shutdown computer
 - Option to restart app as administrator
 - Some options updated
+- Perofrmance Improved
+- Beautiful look
