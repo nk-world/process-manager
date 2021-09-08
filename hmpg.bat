@@ -1,16 +1,18 @@
 @echo off
+net session >nul 2>&1
+if /I "%errorlevel%" EQU "0" (set admin=as administrator) else (set admin=)
 set all=false
 :sss
 cls
 title Process Manager
 color 1f
 if /I "%*" NEQ "by-app" exit
-echo Process Manager (Console) Version 2.0.1
-echo Codename Snow Leopard
+echo Process Manager (Console) Version 2.5
+echo Codename Lion
 echo.
 :choice
 echo What to do?
-echo 1. Start a task
+echo 1. Start a task %admin%
 echo 2. Kill a task
 echo 3. List all tasks
 echo 4. Open Resource Monitor
@@ -18,10 +20,11 @@ echo 5. Open Run Box
 echo 6. Open System Task Manager
 echo 7. About
 if /I "%all%" EQU "true" (echo 8. Restart Explorer Shell && echo 9. Exit Explorer && echo 10. View on GitHub)
+echo P. Power Options
 
 echo.
 :s
-set /p c=Please select a task by number. Do not include "." 
+set /p c=Please select a task by number. Do not include "."::: 
 goto :%c%
 goto :s
 :1
@@ -55,7 +58,7 @@ goto :choice
 :7
 cls
 echo Process Manager (Console)
-echo Version 2.0.1 (Snow Leopard)
+echo Version 2.5 (Lion)
 echo.
 echo Thanks very much..
 pause
@@ -86,3 +89,17 @@ cls
 echo OK Then,
 echo __________________________________________________________________________________________________________
 goto :choice
+:111
+sudo hmpg.bat by-app
+:P
+cls
+echo S. Shutdown
+echo R. Reboot
+echo L. Log Off
+echo.
+echo.
+set /p sc=What to do? 
+if /I "%sc%" EQU "S" shutdown -t 00 -s
+if /I "%sc%" EQU "R" shutdown -t 00 -r
+if /I "%sc%" EQU "L" shutdown -t 00 -l
+goto :sss
