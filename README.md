@@ -1,6 +1,6 @@
-# process-manager
+# Process Manager
 
-Just download the file.
+**Just download the file.**
 
 git clone github.com/nk-world/process-manager.git
 
