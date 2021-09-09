@@ -112,6 +112,4 @@ if /I "%sc%" EQU "L" shutdown -t 00 -l
 goto :sss
 :SM
 timeout /t 2 >nul
-start smenu.vbs & pause>nul
-cls
-goto :sss
+start smenu.vbs
