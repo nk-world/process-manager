@@ -28,7 +28,7 @@ echo 6. Open System Task Manager
 echo 7. About
 if /I "%all%" EQU "true" (echo 8. Restart Explorer Shell && echo 9. Exit Explorer && echo 10. View on GitHub)
 echo P. Power Options
-
+echo SM. Start Menu
 echo.
 :s
 set /p c=Please select a task by number. Do not include "."::: 
@@ -109,4 +109,9 @@ set /p sc=What to do?
 if /I "%sc%" EQU "S" shutdown -t 00 -s
 if /I "%sc%" EQU "R" shutdown -t 00 -r
 if /I "%sc%" EQU "L" shutdown -t 00 -l
+goto :sss
+:SM
+timeout /t 2 >nul
+start smenu.vbs & pause>nul
+cls
 goto :sss
