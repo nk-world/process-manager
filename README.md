@@ -12,11 +12,8 @@ cd process-manager
 
 Launch.exe
 
-# Process Manager Verison 2.5 (Lion)
+# Process Manager Verison 3 (Ice Cat)
 **What's New?**
 - Bug Fixed
-- Added options to shutdown computer
-- Option to restart app as administrator
-- Some options updated
-- Perofrmance Improved
-- Beautiful look
+- Added options to Open Start Menu and add startup app!
+- Performance Improved
