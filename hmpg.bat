@@ -1,4 +1,5 @@
 @echo off
+set /p ver=<vindicate.sun
 net session >nul 2>&1
 if /I "%errorlevel%" EQU "0" (set admin=as administrator) else (set admin=)
 set all=false
@@ -14,8 +15,7 @@ echo ^|  __/^| ^| ^| (_) ^| (_^|  __/\__ \__ \ ^| ^|  ^| ^| (_^| ^| ^| ^| ^| (_^
 echo ^|_^|   ^|_^|  \___/ \___\___^|^|___/___/ ^|_^|  ^|_^|\__,_^|_^| ^|_^|\__,_^|\__, ^|\___^|_^|
 echo                                                               ^|___/
 echo.
-echo (Console) Version 2.5
-echo Codename Lion
+echo (Console) Version %ver%
 echo.
 :choice
 echo What to do?
@@ -65,7 +65,7 @@ goto :choice
 :7
 cls
 echo Process Manager (Console)
-echo Version 2.5 (Lion)
+echo Version %ver%
 echo.
 echo Thanks very much..
 pause
