@@ -2,5 +2,5 @@
 timeout /t 5
 taskkill /im explorer.exe /f
 pause
-explorer
+start explorer.exe
 exit
