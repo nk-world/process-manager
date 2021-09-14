@@ -31,6 +31,8 @@ echo P. Power Options
 echo SM. Start Menu
 echo SA. Add a startup app.
 echo.
+echo U. Update Application (NEW)
+echo.
 :s
 set /p c=Please select a task by number. Do not include "."::: 
 goto :%c%
@@ -117,6 +119,10 @@ timeout /t 4 >nul
 start explorer.exe "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 cls
 goto :sss
+:U
+start updater.bat
+exit
+
 :SM
 timeout /t 2 >nul
 start smenu.vbs
