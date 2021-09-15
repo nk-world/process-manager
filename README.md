@@ -12,18 +12,18 @@ cd process-manager
 
 Launch.exe
 
-# Process Manager Version 4 (Mountain)
+# Process Manager Version 5 (Elephant)
 **What's New?**
 - Bug Fixed
-- Now you can update the app!!
-- Performance Improved
 - Features Refreshed
+- Personalization
+- Edit Open Source Code (Developers only)
+- New information screen (MORE FUN)
 
 
 
-# Process Manager Version 5 (Elephant) {Future Update}
+# Process Manager Version 5.5 (Smart Elephant) {Future Update}
 **Planned Features**
 - Experimental Graphical User Interface (BETA)
 - Startup App Improvements
-- Edit Open Source Code (Devlopers Only)
-- Personalization Options
+- Informs The user if an error has occured!
