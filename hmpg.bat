@@ -1,4 +1,5 @@
 @echo off
+start /wait info.vbs
 set /p ver=<vindicate.sun
 net session >nul 2>&1
 if /I "%errorlevel%" EQU "0" (set admin=as administrator) else (set admin=)
