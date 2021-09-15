@@ -1,5 +1,6 @@
 @echo off
-start /wait info.vbs
+:allagain
+cls
 set /p ver=<vindicate.sun
 net session >nul 2>&1
 if /I "%errorlevel%" EQU "0" (set admin=as administrator) else (set admin=)
@@ -7,7 +8,8 @@ set all=false
 :sss
 cls
 title Process Manager
-color 1f
+set /p cs=<cs
+color %cs%
 if /I "%*" NEQ "by-app" exit
 echo  ____                                __  __
 echo ^|  _ \ _ __ ___   ___ ___  ___ ___  ^|  \/  ^| __ _ _ __   __ _  __ _  ___ _ __
@@ -33,7 +35,7 @@ echo SM. Start Menu
 echo SA. Add a startup app.
 echo.
 echo U. Update Application (NEW)
-echo.
+echo Z. Personalize (NEW)
 :s
 set /p c=Please select a task by number. Do not include "."::: 
 goto :%c%
@@ -68,6 +70,7 @@ taskmgr
 goto :choice
 :7
 cls
+start /wait info.vbs
 echo Process Manager (Console)
 echo Version %ver%
 echo.
@@ -123,7 +126,14 @@ goto :sss
 :U
 start updater.bat
 exit
-
+:Z
+cls
+type colors
+echo Syntax= ^<Background Color^>^<Text color^>
+echo Eg 1f is system default.
+set /p cs=Input: 
+echo %cs%>cs
+goto :allagain
 :SM
 timeout /t 2 >nul
 start smenu.vbs
