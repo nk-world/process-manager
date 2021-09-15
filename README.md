@@ -1,6 +1,6 @@
 # Process Manager
 **Console for managing your process**
-Thanks Very Much
+Thank You Very Much for using my project! Let's Go through some features and improvements!!
 
 # Process Manager Installation
 
@@ -12,8 +12,18 @@ cd process-manager
 
 Launch.exe
 
-# Process Manager Verison 3 (Ice Cat)
+# Process Manager Version 4 (Mountain)
 **What's New?**
 - Bug Fixed
-- Added options to Open Start Menu and add startup app!
+- Now you can update the app!!
 - Performance Improved
+- Features Refreshed
+
+
+
+# Process Manager Version 5 (Elephant) {Future Update}
+**Planned Features**
+- Experimental Graphical User Interface (BETA)
+- Startup App Improvements
+- Edit Open Source Code (Devlopers Only)
+- Personalization Options
