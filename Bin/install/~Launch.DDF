@@ -1,0 +1,35 @@
+;Auto-generated Diamond Directive File. Can be deleted without harm.
+.Set CabinetNameTemplate=C:\Users\nischal\Desktop\Apps\Process Manager\Bin\install\~Launch.CAB
+.Set CompressionType=LZX
+.Set CompressionLevel=7
+.Set InfFileName=C:\Users\nischal\Desktop\Apps\Process Manager\Bin\install\~Launch_LAYOUT.INF
+.Set RptFileName=C:\Users\nischal\Desktop\Apps\Process Manager\Bin\install\~Launch.RPT
+.Set MaxDiskSize=CDROM
+.Set ReservePerCabinetSize=0
+.Set InfCabinetLineFormat=*cab#*=Application Source Media,*cabfile*,0
+.Set Compress=on
+.Set CompressionMemory=21
+.Set DiskDirectoryTemplate=
+.Set Cabinet=ON
+.Set MaxCabinetSize=999999999
+.Set InfDiskHeader=
+.Set InfDiskLineFormat=
+.Set InfCabinetHeader=[SourceDisksNames]
+.Set InfFileHeader=
+.Set InfFileHeader1=[SourceDisksFiles]
+.Set InfFileLineFormat=*file*=*cab#*,,*size*,*csum*
+C:\Users\nischal\Desktop\Apps\PROCES~2\Bin\install\colors
+C:\Users\nischal\Desktop\Apps\PROCES~2\Bin\install\cs
+C:\Users\nischal\Desktop\Apps\PROCES~2\Bin\install\ext.dll
+C:\Users\nischal\Desktop\Apps\PROCES~2\Bin\install\fign
+C:\Users\nischal\Desktop\Apps\PROCES~2\Bin\install\git.exe
+C:\Users\nischal\Desktop\Apps\PROCES~2\Bin\install\info.vbs
+C:\Users\nischal\Desktop\Apps\PROCES~2\Bin\install\kill.bat
+C:\Users\nischal\Desktop\Apps\PROCES~2\Bin\install\Launch.exe
+C:\Users\nischal\Desktop\Apps\PROCES~2\Bin\install\path
+C:\Users\nischal\Desktop\Apps\PROCES~2\Bin\install\re.bat
+C:\Users\nischal\Desktop\Apps\PROCES~2\Bin\install\smenu.vbs
+C:\Users\nischal\Desktop\Apps\PROCES~2\Bin\install\start.bat
+C:\Users\nischal\Desktop\Apps\PROCES~2\Bin\install\sudo.cmd
+C:\Users\nischal\Desktop\Apps\PROCES~2\Bin\install\updater.bat
+C:\Users\nischal\Desktop\Apps\PROCES~2\Bin\install\VINDIC~1.SUN
